@@ -1,0 +1,156 @@
+.main-app {
+    background: white;
+}
+.navbar {
+    width: 1100px;
+    background: white;
+    line-height: 30px;
+    margin-left: 304px;
+    transition: all 300ms;
+}
+
+.navbar .nav-link {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar ul li {
+    color: white;
+}
+
+.navbar .nav-link li a {
+    color: black;
+    text-decoration: none;
+}
+
+.navbar .nav-link .home-link {
+    margin-left: 90px;
+}
+
+.home-section {
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(241, 238, 238);
+    display: flex;
+}
+
+.home {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 70px;
+    padding-top: 30px;
+    background: rgb(241, 238, 238);
+    width: calc(100% - 40px);
+
+}
+
+.home .shoe-container {
+    background: white;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    height: 400px;
+    margin: 40px 90px;
+
+}
+
+.home .shoe-container img {
+    width: 300px;
+}
+
+.home .shoe-container button {
+    border: transparent;
+    background: white;
+    color: black;
+    padding: 0.4rem 1rem;
+    -webkit-filter: drop-shadow(2px 2px 2px #666);
+    border-radius: 30px;
+}
+
+.sidebar {
+    background: white;
+    width: 297px;
+    margin-top: -80px;
+    color: black;
+    transition: width 300ms;
+
+}
+
+.all-categories {
+    background: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    /* margin: 0px 640px; */
+}
+
+.open-category {
+    margin-top: 40px;
+    /* margin: 0px 644px; */
+}
+
+.sidebar-categories {
+    margin: 30px 10px;
+}
+
+.sidebar-buttons {
+    margin: 60px 50px;
+}
+.side-button {
+    background: transparent;
+    font-size: 1.5rem;
+    margin-left: 30px;
+}
+
+.category {
+    display: flex;
+    margin: 30px -40px;
+    cursor: pointer;
+    color: gray;
+    padding: 0.5rem 1rem;
+    align-items: center;
+    border-radius: 10px;
+}
+.active-category {
+    background: rgba(0, 0, 255, 0.123);
+    color: blue;
+  -webkit-filter: drop-shadow(1px  2px 1px #666);
+
+
+}
+
+.icon {
+    font-size: 2rem;
+}
+.menubar {
+    font-size: 2rem;
+    transform: translate(60px, -60px);
+    cursor: pointer;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-around;
+    margin: -20px 30px;
+}
+
+
+
+
+
+
+
+
+
+.cart {
+    background: silver;
+    width: 100%;
+    min-height: 100vh;
+}
